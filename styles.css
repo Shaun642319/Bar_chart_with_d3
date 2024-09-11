@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+}
+
+.container{
+  margin-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1000px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+#title{
+  text-align: center;
+}
+
+#tooltip{
+  border: 1px solid;
+  position: absolute;
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  box-shadow: 5px 3px 2px;
+  pointer-events: none;
+  padding: 10px;
+  background: grey;
+  opacity: 0;
+  font-family: verdana;
+}
